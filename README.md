@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @super-yjt
+- 👋 Hi, I’m @super-MILITANT
 - 👀 I’m interested in c++
 - 🌱 I’m currently learning c++
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on c++
 - 📫 How to reach me `3537177095@qq.com`
 
 <!---
