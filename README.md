@@ -1,13 +1,21 @@
-- 👋 Hi, I’m @super-MILITANT
-- 👀 I’m interested in c++
-- 🌱 I’m currently learning c++
-- 💞️ I’m looking to collaborate on c++
-- 📫 How to reach me `3537177095@qq.com`
-
-<!---
-super-yjt/super-yjt is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+#include <iostream>
+#include <string>
+struct inflatable
+{
+    string interest;
+};
+void mail ( )
+{
+    using namespace std;
+    cout << "yangjingtian081112@gmail.com\nor\n3537177095@qq.com\n" ;
+}
+int mian (void)
+{
+    std::cout << "user name" << "super-yjt" << "\n" ;
+    std::cout << "nick name" << "MILITANT" << "\n" ;
+    mail();
+    inflatable Me {"C++"};
+}
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=super-yjt&show_icons=true&theme=onedark)
 
