@@ -7,7 +7,7 @@
 
 - 💬 Ask me about **C++**
 
-- 📫 How to reach me **3537177095@qq.com/yangjingtian081112@gmail.com**
+- 📫 How to reach me **3537177095@qq.com / yangjingtian081112@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
