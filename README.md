@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm MILITANT</h1>
 <h3 align="center">A passionate C++ developer from China</h3>
  
-- 🔭 I’m currently working on [C++](https://github.com/super-yjt/My--C-plusplus-super-files)
+- 🔭 I’m currently working on **C++**
 
 - 🌱 I’m currently learning **C++**
 
