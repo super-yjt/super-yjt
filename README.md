@@ -1,14 +1,34 @@
 <h1 align="center">Hi 👋, I'm MILITANT</h1>
 <h3 align="center">A passionate C++ developer from China</h3>
  
-- 🔭 I’m currently working on **C++**
-
-- 🌱 I’m currently learning **C++**
-
-- 💬 Ask me about **C++**
-
-- 📫 How to reach me **3537177095@qq.com / DesdenmoraMilitant@gmail.com**
-
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+class Person
+{
+public:
+    void setName(string M_name){
+        name = M_name;}  
+    void setLanguage(string M_language){
+        language = M_language;}  
+    string getName(){
+        return name;}
+    string getLanguage(){
+        return language;}
+private:
+    string name;
+    string language;
+};
+int main(void)
+{
+    Person Myself;
+    Myself.setName("Desdenmora");
+    Myself.setLanguage("C++...");
+    cout << Myself.getName() << "\n";
+    cout << Myself.getLanguage() << "\n";
+}
+```
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
