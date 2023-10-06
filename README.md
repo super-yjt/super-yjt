@@ -2,30 +2,34 @@
 
 ```c++
 #include <iostream>
-#include <string>
-using namespace std;
+#include <vector>
 class Person
 {
 public:
-    void setName(string M_name){
-        name = M_name;}  
-    void setLanguage(string M_language){
-        language = M_language;}  
-    string getName(){
-        return name;}
-    string getLanguage(){
-        return language;}
+    inline void setAndPrintName(std::vector<unsigned char> M_name)
+    {
+        Name = M_name;
+        for (std::vector<unsigned char>::iterator it = Name.begin(); it != Name.end(); ++it)
+            std::cout << *it;
+        std::cout << "\n";
+    }
+    inline void setAndPrintLanguage(std::vector<unsigned char> M_language)
+    {
+        Language = M_language;
+        for (std::vector<unsigned char>::iterator it = Language.begin(); it != Language.end(); ++it)
+            std::cout << *it;
+        std::cout << "\n";
+    }
+
 private:
-    string name;
-    string language;
+    std::vector<unsigned char> Name;
+    std::vector<unsigned char> Language;
 };
 int main(void)
 {
     Person Myself;
-    Myself.setName("Desdenmora");
-    Myself.setLanguage("C++...");
-    cout << Myself.getName() << "\n";
-    cout << Myself.getLanguage() << "\n";
+    Myself.setAndPrintName({'D', 'e', 's', 'd', 'e', 'n', 'm', 'o', 'r', 'a'}); // Desdenmora
+    Myself.setAndPrintLanguage({'C', '+', '+', '.', '.', '.'});                 // C++...
 }
 ```
 <h3 align="left">Connect with me:</h3>
